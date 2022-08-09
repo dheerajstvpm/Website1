@@ -42,6 +42,9 @@ h2[name='heading']{
     font-size:165%;
     font-weight:10; 
 }
+a[id='fCC']{
+    color: white;
+}
 img[alt='icon']{
     height: 100%;
     float: left;
