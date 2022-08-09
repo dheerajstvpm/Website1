@@ -1,0 +1,277 @@
+body{
+    margin: 0%;
+    background-color: #f5f6f7;
+}
+.header{
+    background-color: black;
+    height: 40px;
+    float: left;
+    width: 100%;
+    position:fixed;
+}
+input[type="search"]{
+    width: 30%;
+    background-color:rgb(54, 58, 68);
+    color: white;
+    height: 70%;
+    float: left;
+    border: none;
+    margin: 6px;
+    margin-left: 25px;
+    font-size: large;
+    font-weight: 100;
+    padding-left: 25px;
+}
+h2[name='heading']{
+    color:white;
+    height: 80%;
+    margin:4px;
+    text-align: center;
+    background-color:black;
+    float: left;
+    margin-left: 10%;
+    font-family:'Courier New', Courier, monospace;
+    font-size:165%;
+    font-weight:10; 
+}
+img[alt='icon']{
+    height: 100%;
+    float: left;
+}
+button[name='menu']{
+    height: 80%;
+    margin: 4px auto;
+    width: 75px;
+    float: left;
+    color: white;
+    background-color: black;
+    font-size:115%;
+    font-weight: 100;
+    margin-left: 375px;
+    border: 1px solid white;
+}
+img[alt='profile']{
+    height: 80%;
+    margin: 4px auto;
+    float: right;
+    margin-right: 15px;
+}
+.div1{
+    float:left;
+    font-family: sans-serif;
+    width: 80%;
+    height: 1080px;
+    margin:60px 20%;
+    color:#252532;
+}
+h1[name="Learn"]{
+    text-align:left;
+    font-weight:500;
+    font-size:280%;
+}
+h2[name="Since"]{
+    font-weight: normal;
+    font-size: 138%;
+}
+button[name='Get-started']{
+    height: 60px;
+    width: 49%;
+    float: left;
+    color:#252532;
+    background-image:linear-gradient(#fdcc4c,#fcac32);    
+    font-size:200%;
+    font-weight:100 ;
+    border: 3px solid #fcac32;
+    font-family:monospace;
+    margin:10px 12%;
+}
+img[alt='camp']{
+    margin-top: 50px;
+}
+h2[name="camp"]{
+    margin: 1% 5%;
+    font-weight: normal;
+    font-size: 138%;
+}
+.div2{
+    float:left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 275px;
+    background-color: #3b3b4f;
+}
+h1[name='as-seen']{
+    text-align: center;
+    color: #d0d0d5;
+    font-weight: 500;
+    font-size:300%;
+}
+img[alt='as-seen-in']{
+    margin-left:25%;
+    margin-top: -1%;
+}
+.div3{
+    float:left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 1500px;
+}
+h1[name='alumni']{
+    text-align: center;
+    color:#252532;
+    font-weight: 500;
+    font-size:300%;
+    margin-top: 60px;
+}
+.alumni{
+    margin: 6%;
+    width: 88%;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 5px 1px #d0d0d5;
+}
+img[name="alumni"]{
+    float: left;
+}
+.content{
+    margin-left: 35%;
+    padding-top: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2[name='alumni']{
+    color:#252532;
+    font-size:140%;
+    font-weight: 100;
+}
+h2[id='name']{
+    text-align:center;
+    font-size: 160%;
+}
+h2[id='job']{
+    text-align:center;
+    font-size: 160%;
+    margin-top: -1%;
+}
+span{
+    font-weight:400;
+}
+.div4{
+    float: left;
+    width: 100%;
+    height: 1400px;
+}
+h1[name='certifications']{
+    color:#252532;
+    font-weight: 500;
+    font-size:300%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 60px;
+    margin-left: 20%;
+}
+.certifications{
+    background-color: #d0d0d5;
+    height: 80px;
+    width: 58%;
+    margin: 5px 20%;
+    border: 3px solid black;
+}
+img[id='logo']{
+    float: left;
+}
+img[id='arrow']{
+    float: right;
+}
+div[name='button-div']{
+    float: left;
+    width: 80%;
+    padding-top: 3%;
+    margin-left: 1%;
+    text-align: left;
+    font-size:150%;
+    font-family:monospace;
+    font-weight: 100;
+}
+button[name='Get-started2']{
+    height: 60px;
+    width: 49%;
+    float: left;
+    color:#252532;
+    background-image:linear-gradient(#fdcc4c,#fcac32);    
+    font-size:200%;
+    font-weight:100 ;
+    border: 3px solid #fcac32;
+    font-family:monospace;
+    margin:40px 25%;
+}
+.footer{
+    float: left;
+    width: 100%;
+    height: 600px;
+    background-color: #dfdfe2;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.freeCodeCamp{
+    float: left;
+    width: 37%;
+    height:475px;
+    padding-top: 25px;
+    padding-left: 7%;
+    padding-right: 1%;
+}
+.trending{
+    float: left;
+    width: 55%;
+    height:500px;
+}
+.about{
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+h4{
+    font-size: 105%;
+    font-weight: lighter;
+    line-height: 30px;
+}
+h3{
+    font-size: 125%;
+    font-weight: normal;
+    line-height: 25px;
+}
+a{
+    color: #252532;
+    text-decoration: none;
+}
+a[name='donate']{
+    text-decoration:underline;
+}
+.divider{
+    float: left;
+    border: 1px solid #d0d0d5;
+    margin:5px 7%;
+    width: 86%;
+}
+.footer-links{
+    margin: 40px 7%;
+}
+a[id='footer-link']{
+    margin-left: 1%;
+    font-size: 105%;
+    font-weight: lighter;
+}
+a[name='about']{
+    margin-left: 0%;
+}
+.table-head{
+    padding-top: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 125%;
+    font-weight: normal;
+}
+table{
+    margin-left: -25px;
+    border-spacing: 50px 15px;
+    font-size: 105%;
+    font-weight: lighter;
+}
