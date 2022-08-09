@@ -72,19 +72,19 @@ img[alt='profile']{
     padding-top: 40px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 80%;
-    height: 1090px;
-    margin:60px 20%;
+    height: 1110px;
+    margin:60px 21%;
     color:#252532;
 }
 h1[name="Learn"]{
     text-align:left;
     font-weight:500;
-    font-size:280%;
+    font-size:325%;
     line-height: 45px;
 }
 h2[name="Since"]{
     font-weight: normal;
-    font-size: 138%;
+    font-size: 150%;
 }
 button[name='Get-started']{
     height: 60px;
@@ -104,7 +104,7 @@ img[alt='camp']{
 h2[name="camp"]{
     margin: 1% 5%;
     font-weight: normal;
-    font-size: 138%;
+    font-size: 150%;
 }
 .div2{
     float:left;
