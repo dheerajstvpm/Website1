@@ -9,26 +9,34 @@ body{
     width: 100%;
     position:fixed;
 }
-input[type="search"]{
+.search-box{
+    padding-left: 25px;
+    padding-top: 5px;
     width: 30%;
+    height: 35px;
+    float: left;
+}
+img[alt='search']{
+    float: left;
+    height: 28px;
+}
+input[type="search"]{
+    width: 90%;
     background-color:rgb(54, 58, 68);
     color: white;
-    height: 70%;
+    height: 28px;
     float: left;
     border: none;
-    margin: 6px;
-    margin-left: 25px;
     font-size: large;
     font-weight: 100;
-    padding-left: 25px;
 }
 h2[name='heading']{
     color:white;
     height: 80%;
-    margin:4px;
     text-align: center;
     background-color:black;
     float: left;
+    margin: 4px;
     margin-left: 10%;
     font-family:'Courier New', Courier, monospace;
     font-size:165%;
