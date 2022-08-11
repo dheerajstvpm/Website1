@@ -1,3 +1,4 @@
+
 body{
     margin: 0%;
     background-color: #f5f6f7;
@@ -70,32 +71,32 @@ img[alt='profile']{
 .div1{
     float:left;
     padding-top: 40px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lato', sans-serif;
     width: 79%;
     height: 1110px;
-    margin:60px 21%;
+    margin:45px 21%;
     color:#252532;
 }
 h1[name="Learn"]{
     text-align:left;
-    font-weight:500;
-    font-size:325%;
+    font-weight:600;
+    font-size:280%;
     line-height: 45px;
 }
 h2[name="Since"]{
-    font-weight: normal;
-    font-size: 150%;
+    font-weight: 500;
+    font-size: 140%;
 }
 button[name='Get-started']{
-    height: 60px;
+    height: 55px;
     width: 49%;
     float: left;
     color:#252532;
     background-image:linear-gradient(#fdcc4c,#fcac32);    
-    font-size:200%;
-    font-weight:100 ;
+    font-size:170%;
+    font-weight:normal ;
     border: 3px solid #fcac32;
-    font-family:monospace;
+    font-family: 'Roboto Mono', monospace;
     margin:10px 12%;
 }
 img[alt='camp']{
@@ -108,7 +109,7 @@ h2[name="camp"]{
 }
 .div2{
     float:left;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lato', sans-serif;
     width: 100%;
     height: 275px;
     background-color: #3b3b4f;
@@ -125,9 +126,9 @@ img[alt='as-seen-in']{
 }
 .div3{
     float:left;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lato', sans-serif;
     width: 100%;
-    height: 1500px;
+    height: 1450px;
 }
 h1[name='alumni']{
     text-align: center;
@@ -135,9 +136,11 @@ h1[name='alumni']{
     font-weight: 500;
     font-size:300%;
     margin-top: 60px;
+    margin-bottom: -10px;
 }
 .alumni{
-    margin: 6%;
+    margin-left: 6%;
+    margin-top: 60px;
     width: 88%;
     height: 350px;
     background-color: white;
@@ -149,11 +152,11 @@ img[name="alumni"]{
 .content{
     margin-left: 35%;
     padding-top: 50px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 h2[name='alumni']{
     color:#252532;
-    font-size:140%;
+    font-size:120%;
     font-weight: 100;
 }
 h2[id='name']{
@@ -171,14 +174,13 @@ span{
 .div4{
     float: left;
     width: 100%;
-    height: 1400px;
+    height: 1362px;
 }
 h1[name='certifications']{
     color:#252532;
     font-weight: 500;
     font-size:300%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 60px;
+    font-family: 'Lato', sans-serif;
     margin-left: 20%;
 }
 .certifications{
@@ -201,27 +203,27 @@ div[name='button-div']{
     margin-left: 1%;
     text-align: left;
     font-size:150%;
-    font-family:monospace;
-    font-weight: 100;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
 }
 button[name='Get-started2']{
-    height: 60px;
-    width: 49%;
+    height: 55px;
+    width: 40%;
     float: left;
     color:#252532;
     background-image:linear-gradient(#fdcc4c,#fcac32);    
-    font-size:200%;
-    font-weight:100 ;
+    font-size:170%;
+    font-weight:normal ;
     border: 3px solid #fcac32;
-    font-family:monospace;
-    margin:40px 25%;
+    font-family: 'Roboto Mono', monospace;
+    margin:40px 30%;
 }
 .footer{
     float: left;
     width: 100%;
     height: 600px;
     background-color: #dfdfe2;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 .freeCodeCamp{
     float: left;
@@ -231,23 +233,13 @@ button[name='Get-started2']{
     padding-left: 7%;
     padding-right: 1%;
 }
-.trending{
-    float: left;
-    width: 55%;
-    height:500px;
-}
-.about{
-    float: left;
-    width: 100%;
-    height: 100px;
-}
 h4{
-    font-size: 105%;
+    font-size: 95%;
     font-weight: lighter;
     line-height: 30px;
 }
 h3{
-    font-size: 125%;
+    font-size: 115%;
     font-weight: normal;
     line-height: 25px;
 }
@@ -258,33 +250,43 @@ a{
 a[name='donate']{
     text-decoration:underline;
 }
+.trending{
+    float: left;
+    width: 55%;
+    height:500px;
+}
+.table-head{
+    padding-top: 50px;
+    height: 30px;
+    text-align: center;
+    font-size: 100%;
+    font-weight: normal;
+}
+table{
+    margin-left: -25px;
+    border-spacing: 50px 14px;
+    font-size: 100%;
+    font-weight: lighter;
+}
 .divider{
     float: left;
     border: 1px solid #d0d0d5;
     margin:5px 7%;
     width: 86%;
 }
+.about{
+    float: left;
+    width: 100%;
+    height: 100px;
+}
 .footer-links{
-    margin: 40px 7%;
+    margin: 35px 7%;
 }
 a[id='footer-link']{
     margin-left: 1%;
-    font-size: 105%;
+    font-size: 100%;
     font-weight: lighter;
 }
 a[name='about']{
     margin-left: 0%;
-}
-.table-head{
-    padding-top: 40px;
-    height: 40px;
-    text-align: center;
-    font-size: 125%;
-    font-weight: normal;
-}
-table{
-    margin-left: -25px;
-    border-spacing: 50px 15px;
-    font-size: 105%;
-    font-weight: lighter;
 }
